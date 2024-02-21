@@ -1,0 +1,12 @@
+[package]
+name = "archivos_texto"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]  # Esta línea indica que estamos definiendo un ejecutable
+name = "run"  # Cambia "nombre_del_ejecutable" por el nombre que quieras
+path = "src/creacion_archivo.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
